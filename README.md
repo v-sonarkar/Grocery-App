@@ -1,3 +1,4 @@
+
 # Grocery_APP
 
 A full-stack grocery shopping application with separate frontend (React) and backend (Node.js/Express) codebases. This app allows users to browse products, manage their cart, place orders, and sellers to manage their inventory.
@@ -49,15 +50,30 @@ client/
    src/
       components/
          Navbar.jsx
+         Footer.jsx
          ProductCard.jsx
+         BestSeller.jsx
+         BottomBanner.jsx
+         Categories.jsx
+         Loading.jsx
+         Login.jsx
+         MainBanner.jsx
+         NewsLetter.jsx
          seller/
             SellerLogin.jsx
       pages/
          Home.jsx
          Cart.jsx
+         AllProducts.jsx
+         MyOrders.jsx
+         AddAddress.jsx
+         ProductCategory.jsx
+         ProductDetails.jsx
          seller/
             AddProduct.jsx
             Orders.jsx
+            ProductList.jsx
+            SellerLayout.jsx
 ```
 - User authentication (users & sellers)
 - Product browsing, categories, and details
